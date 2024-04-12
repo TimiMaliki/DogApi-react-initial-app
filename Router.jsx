@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import MainLayout from "./MainLayout";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import Search, { Dogs } from "./pages/Dogs";
+import { Dogs } from "./pages/Dogs";
 import SingleDog from "./pages/SingleDog";
 
 const Router = () => {
